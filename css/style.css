@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+
+background: lightblue;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+.container{
+position: relative;
+width: 100%;
+max-width: 1000px;
+min-height: 100px;
+background: #fff;
+display: grid;
+padding: 0;
+grid-template-columns: 1fr 2fr;
+box-shadow: 0 35px 55px rgba(0,0,0,1);
+margin: 50px;
+}
+
+.container .left_side{
+position: relative;
+background: #003147;
+padding: 40px;
+}
+
+
+.container .right_side{
+position: relative;
+background: #fff;
+padding: 40px;
+}
+
+
+.img_profile img{
+    border-radius: 132px;
+}
+.header_text{
+
+text-align: center;
+
+margin-top: 30px;
+}
+.header_text h1{
+    color: #fff;
+    /* margin-top: 26px; */
+    font-size: 22px;
+    text-align: center;
+}
+
+.header_text p{
+
+text-align: center;
+
+color: #fff;
+}
+
+.header_text span{
+
+display: inline-block;
+
+background: #2788b3;
+
+width: 85%;
+
+height: 2px;
+
+text-align: center;
+
+align-items: baseline;
+}
+
+.contact_info{
+
+line-height: 33px;
+}
+
+.contact_info h1{
+
+color: #fff;
+
+margin-top: 34px;
+
+font-size: 22px;
+}
+
+.contact_info p{
+
+color: #fff;
+}
+
+.contact_info p i{
+
+margin-right: 6px;
+
+color: #2788b3;
+}
+
+.education_iee{
+
+
+}
+
+.education_iee h1{
+
+color: #fff;
+
+font-size: 22px;
+
+margin-top: 34px;
+}
+
+.education_iee h2{
+
+color: #fff;
+
+font-size: 14px;
+
+margin-bottom: 0px;
+}
+
+.education_iee h3{
+
+color: #d0cbcb;
+
+font-size: 13px;
+margin-bottom: 0px;
+}
+
+.education_iee p{
+
+color: #2788b3;
+
+margin-bottom: 0px;
+
+margin-top: 29px;
+}
+
+.languane_jk{
+
+margin-top: 30px;
+}
+
+.languane_jk h1{
+
+font-size: 22px;
+
+color: #fff;
+
+margin-bottom: 17px;
+}
+
+.languane_jk h3{
+
+font-size: 15px;
+
+color: #d0cbcb;
+}
+
+.legen_fieldshel{
+
+
+
+}
+
+.legen_fieldshel h1{
+
+font-size: 33px;
+}
+
+.legen_fieldshel p{
+
+
+
+}
+
+.legen_fieldshel img{
+
+margin-bottom: 40px;
+}
+.button_d{
+
+margin-bottom: 30px;
+
+margin-top: 30px;
+
+text-align: center;
+}
+
+
+.btn-link1{
+
+background: #003147;
+
+color: #fff;
+transition: 0.5s all ease-in-out;
+}
+
+.btn-link1:hover{
+
+color: #fff;
+
+background: #2788b3;
+}
